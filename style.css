@@ -1,0 +1,25 @@
+
+.logo {
+  width: 12%;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery-item {
+  overflow: hidden
+}
+.gallery-item img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+.gallery-item img:hover {
+  transform: scale(1.1);
+  }
+
