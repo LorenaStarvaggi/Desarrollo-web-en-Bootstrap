@@ -2,6 +2,10 @@
 .logo {
   width: 12%;
 }
+.logow {
+  width: 50px;
+  margin: 10px;
+}
 
 .gallery {
   display: flex;
